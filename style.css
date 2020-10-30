@@ -1,0 +1,40 @@
+#top {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    display: block;
+    }
+    
+    #container {
+    width: 80%;
+    margin: auto;
+    vertical-align: middle;
+}
+
+    #logo {
+        display: inline-block;
+        margin-top: 8px;
+    }
+    
+    #menu {
+        float: right;
+        margin-top: 14px;
+    }
+    
+    #menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      
+    #menu li {
+        float: left;
+      }
+      
+    #menu li a {
+        display: block;
+        padding: 8px;
+        text-decoration: none;
+        color: #fff;
+      }
