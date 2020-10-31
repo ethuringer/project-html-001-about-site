@@ -25,12 +25,15 @@
         </div>
     </header>
     <main>
+        <section id="intro">
+            <div class="intro-text">
+                <h1>Rólam</h1>
+            </div>
+        </section>
+        <div class="wrapper">
         <section>
             <img src="" alt="">
             <article>
-                <header>
-                    <h2>Rólam</h2>
-                </header>
                 <p>Thüringer Éva vagyok, és 9 éve kezdtem el foglalkozni honlapok készítésével. Főként Wordpress
                     weboldalakat készítek, mert ezek viszonylag hamar elkészülnek, és a kezelését is
                     könnyen meg lehet tanulni. Az utóbbi időben egyre komolyabban érdekel a webfejlesztés, úgyhogy most
@@ -65,16 +68,16 @@
             </article>
         </section>
         <section>
-            <form>
-                <div>
+            <div class="contact">
+                <div class="contact-group">
                     <label>Név*</label>
                     <input id="name" name="name" type="text" minlength="5" required>
                 </div>
-                <div>
+                <div class="contact-group">
                     <label>Email*</label>
                     <input id="email" name="email" type="email" required>
                 </div>
-                <div>
+                <div class="contact-group">
                     <label>Üzenet*</label>
                     <textarea id="comment" name="comment" type="comment" minlength="20" required></textarea>
                 </div>
@@ -83,11 +86,14 @@
                 </div>
             </form>
         </section>
+    </div>
     </main>
     <footer>
-        <nav>
-            <a href="#menu">Menu</a>
-        </nav>
+        <div class="container">
+            <a href="#top" class="button">
+                    Ugrás az oldal tetejére
+            </a>
+        </div>
     </footer>
 </body>
 
