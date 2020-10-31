@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 h1, h2, h3, h4, h5 {
@@ -105,15 +105,19 @@ section {
 
 #intro {
     width: 100%;
-    background-image: url(/img/code.jpg);
+    background-image: url(/img/code_bg.jpg);
     padding: 100px 0;
     text-align: center;
     top: 0;
 }
 
+.intro-text h2 {
+    font-weight: 800;
+}
 
-.intro-text {
-    color: #fff;
+.intro-text p {
+    font-size: 28px;
+    font-color: #000;
 }
 
 #pictures h2 {
