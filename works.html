@@ -4,29 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
     <title>Thüringer Éva</title>
 </head>
 
 <body>
-    <header>
-        <h3>Thüringer Éva oldala</h3>
+    <header id="top">
+        <div class="container">
+            <div id="logo">
+                <h3>Thüringer Éva oldala</h3>
+            </div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/works.html">Works</a></li>
+                    <li><a href="/gallery.html">Gallery</a></li>
+                    <li><a href="/about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <nav id="menu">
-        <ul>
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/works.html">Works</a></li>
-            <li><a href="/gallery.html">Gallery</a></li>
-            <li><a href="/about.html">About</a></li>
-        </ul>
-    </nav>
     <main>
-        <section>
-            <article>
-                <header>
-                    <h2>Referenciák</h2>
-                    <p>Ízelítő eddigi munkáimból.</p>
-                </header>
-            </article>
+        <section id="intro">
+            <div class="intro-text">
+                <h2>Referenciák</h2>
+                <p>Ízelítő eddigi munkáimból.</p>
+            </div>
         </section>
         <section class="wrapper">
             <div class="works">
@@ -61,9 +64,11 @@
         </section>
     </main>
     <footer>
-        <nav>
-            <a href="#menu">Menu</a>
-        </nav>
+        <div class="container">
+            <a href="#top" class="button">
+                    Ugrás az oldal tetejére
+            </a>
+        </div>
     </footer>
 </body>
 
