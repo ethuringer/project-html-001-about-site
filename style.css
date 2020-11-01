@@ -177,3 +177,19 @@ footer .container {
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
 }
+
+.image {
+    width: 25%;
+    float: left;
+}
+
+.description {
+    padding-top: 2%;
+    width: 75%;
+    float: right;
+}
+
+.work {
+    overflow: auto;
+}
+
