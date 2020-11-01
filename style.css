@@ -200,7 +200,41 @@ footer .container {
     overflow: auto;
 }
 
+.column {
+    float: left;
+    width: 31%;
+    padding: 6px;
+  }
+  
+  .column img {
+    height: 30vh;
+    object-fit: cover;
+    box-shadow: 2px 2px #33333347;
+    margin: 4px;
+  }
 
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  @media (max-width: 768px) {
+   .column {width: 100%;}
+
+   .column img {
+    height: 50vh;
+    object-fit: cover;
+  }
+   }
+
+   @media (max-width: 425px) {
+ 
+    .column img {
+     height: 30vh;
+     object-fit: cover;
+   }
+    }
   
 
   
